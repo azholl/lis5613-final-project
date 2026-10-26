@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #edf7f4;
+  color: #111827;
+}
+
+header {
+  text-align: center;
+  padding: 25px;
+  background: white;
+}
+
+main {
+  width: 85%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  box-sizing: border-box;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  margin-top: 15px;
+  margin-right: 10px;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 20px;
+  background: #4a8b6f;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #3f7f65;
+}
+
+#clear-button {
+  background: #e5e7eb;
+  color: #111827;
+}
+
+.post-card {
+  background: #f9fafb;
+  border: 1px solid #dddddd;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.post-card h3 {
+  margin-top: 0;
+}
+
+.post-meta {
+  color: #4b5563;
+  font-size: 0.9rem;
+}
+
+.post-content {
+  line-height: 1.5;
+  white-space: pre-wrap;
+}
+
+.delete-button {
+  background: #b91c1c;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #4b5563;
+}

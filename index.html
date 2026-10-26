@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Blog Platform</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+  <h1>Simple Blog Platform</h1>
+  <p>Create, Read, Update, and Delete Blog Posts</p>
+</header>
+  <main>
+
+    <section id="form-section" class="card">
+      <h2>Create or Update a Blog Post</h2>
+
+      <form id="post-form">
+        <input type="hidden" id="post-id">
+
+        <label for="title">Title</label>
+        <input id="title" type="text" required>
+
+        <label for="author">Author</label>
+        <input id="author" type="text" required>
+
+        <label for="content">Content</label>
+        <textarea id="content" rows="6" required></textarea>
+
+        <button type="submit" id="submit-button">Submit Post</button>
+        <button type="reset" id="clear-button">Clear Form</button>
+
+        <p id="form-status"></p>
+      </form>
+    </section>
+
+    <section id="posts" class="card">
+      <h2>All Blog Posts</h2>
+      <div id="posts-container">
+        <p>Loading posts...</p>
+      </div>
+    </section>
+
+    <section id="about" class="card">
+      <h2>About This Project</h2>
+      <p>
+        This project is a three-tier web application. The frontend uses HTML, CSS, and JavaScript.
+        The backend uses Node.js and Express. The database uses MySQL to store blog posts.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Simple Blog Platform 2026</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
